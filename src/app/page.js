@@ -7,13 +7,13 @@ import Hero1 from "@/components/Hero1";
 import Navbar from "@/components/Navbar";
 import OurProducts from "@/components/OurProducts";
 import Slider from "@/components/Slider";
-import Team from "@/components/Team";
-import VerticalCardSlider from "@/components/TeamCarousel";
+import Team from "@/components/TEam";
+
 import TestimonialCarousel from "@/components/TestimonialCarousel";
 import Vision from "@/components/Vision";
 import WhatWeDo from "@/components/WhatWeDo";
 import Layout from "@/components/atomic/Layout";
-import Image from "next/image";
+
 
 export default function Home() {
   const testimonials = [
@@ -70,7 +70,7 @@ export default function Home() {
         <Career />
       </Layout>
   
-        <Team />
+ <Team/>
       
       <Layout>
         <Client />
